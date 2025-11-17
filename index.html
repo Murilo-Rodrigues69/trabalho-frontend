@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End - Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#home">Front End</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item"><a class="nav-link" href="#tecnologias">Tecnologias</a></li>
+                <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+
+                <!-- Botão de tema -->
+                <li class="nav-item ms-3">
+                    <button id="btnTema" class="btn btn-outline-light">
+                        🌙
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Front End</h1>
+            <p class="lead">Portfólio de Serviços Tecnológicos</p>
+        </div>
+    </section>
+
+    
+    <!-- Modal (alerta de primeira visita) -->
+<div class="modal" id="modalBoasVindas" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Bem-vindo!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Estamos felizes por você acessar nosso website pela primeira vez!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendi</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <!-- Seção de Tecnologias -->
+    <section id="tecnologias" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Tecnologias</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">Linguagem de programação para desenvolvimento web interativo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">React</h5>
+                            <p class="card-text">Biblioteca JavaScript para construção de interfaces de usuário.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Node.js</h5>
+                            <p class="card-text">Ambiente de execução JavaScript no servidor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">Linguagem versátil para desenvolvimento backend.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Docker</h5>
+                            <p class="card-text">Containerização para deploy e gerenciamento de aplicações.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap</h5>
+                            <p class="card-text">Framework CSS para desenvolvimento responsivo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Equipe -->
+    <section id="equipe" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Equipe</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Hiago</h5>
+                            <p class="text-muted">ADS</p>
+                            <p class="card-text">Descrição das habilidades aqui.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Lucas</h5>
+                            <p class="text-muted">ADS</p>
+                            <p class="card-text">Descrição das habilidades aqui.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <img src="img/Imagem do WhatsApp de 2025-11-16 à(s) 16.19.40_e1c3b918.jpg" style="height: 300px;" class="card-img-top" alt="murilo">
+                        <div class="card-body">
+                            <h5 class="card-title">Murilo</h5>
+                            <p class="text-muted">ADS</p>
+                            <p class="card-text">desenvolvimento back end, Spring boot, sql, postgres</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Projetos (Preview) -->
+    <section id="projetos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Projetos</h2>
+            <div class="text-center">
+                <a href="projetos.html" class="btn btn-primary btn-lg">Ver Todos os Projetos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botão para mostrar os contatos-->
+     <div class="text-center">
+     <button type="button" id="btnMostrarContato" class="btn btn-primary">
+    Entre em Contato
+    </button>
+    </div>
+
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="py-5" style="display:none;">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </form>
+                    <div class="mt-4 text-center">
+                        <p>Ou entre em contato conosco:</p>
+                        <a href="mailto:contato@frontend.com" class="btn btn-outline-primary me-2">E-mail</a>
+                        <a href="https://wa.me/5511999999999" class="btn btn-outline-success">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 Front End - Todos os direitos reservados.</p>
+            <p><a href="#" class="text-white-50">Política de Privacidade</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
